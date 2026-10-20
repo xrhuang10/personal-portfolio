@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chat mining · Xirui Huang</title>
+<meta name="description" content="Clustering client conversations to find workflows that fail.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<script src="../theme.js"></script>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="../index.html">Xirui Huang</a>
+    <div class="bar">
+    <nav aria-label="Pages">
+      <a href="../about.html">about</a>
+      <a href="../projects.html" aria-current="page">projects</a>
+      <a href="../writing.html">writing</a>
+      <a href="../photos.html">photos</a>
+    </nav>
+      <button class="theme" type="button" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M4.8 4.8l1.6 1.6M17.6 17.6l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.8 19.2l1.6-1.6M17.6 6.4l1.6-1.6"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <p class="crumb"><a href="../projects.html">projects</a> <span aria-hidden="true">/</span> Chat mining</p>
+    <article>
+      <h1>Chat mining</h1>
+      <p class="dateline">Sequence Holdings</p>
+      <p>A pipeline that embeds client conversations and clusters them with HDBSCAN, on the order of 40,000 threads. The clusters show which workflows repeat and which ones fail. Slack alerts, a client leaderboard, and BigQuery access control sit on top. Adopted by most of the team at the portfolio company.</p>
+      <p class="tools">Python · HDBSCAN · BigQuery · Trigger.dev · Databricks</p>
+      <p class="links"><a href="../writing/conversations.html">note</a></p>
+      <figure class="frame">
+        <img src="../assets/proj-chat-mining.png" alt="Conversation analytics">
+      </figure>
+    </article>
+  </main>
+
+  <footer class="foot">
+    <p>© 2026 Xirui Huang</p>
+    <p class="foot-links">
+      <a href="mailto:x36huang@uwaterloo.ca" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 7 9-7"/></svg></a>
+      <a href="https://github.com/xrhuang10" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.81 0 .27.18.59.69.48A10.04 10.04 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg></a>
+      <a href="https://linkedin.com/in/xrhuang10" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.5 9H3.7v11.3h2.8V9zM5.1 3.3a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4zM20.3 13.4c0-3.2-1.7-4.7-4-4.7-1.8 0-2.6 1-3.1 1.7V9H10.4c0 1.8 0 11.3 0 11.3h2.8v-6.3c0-.3 0-.7.1-1 .3-.7.9-1.4 2-1.4 1.4 0 2 1.1 2 2.6v6.1h2.8v-6.9z"/></svg></a>
+      <a href="https://scholar.google.com/citations?user=DcIPppQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M2 9.5 12 4l10 5.5-10 5.5L2 9.5z"/><path d="M6 12v4.2c0 1.3 2.7 2.8 6 2.8s6-1.5 6-2.8V12"/><path d="M22 9.5v6"/></svg></a>
+      <a href="https://x.com/xrhuang10" target="_blank" rel="noopener noreferrer" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.7 10.3 22.4 2h-1.8l-6.7 7.2L8.4 2H2l8.1 11.1L2 22h1.8l7.1-7.6L15.6 22H22l-7.3-11.7zm-2.5 2.7-.8-1.1L4.5 3.3h2.8l5.2 7 .8 1.1 6.8 9.3h-2.8l-5.5-7.7z"/></svg></a>
+    </p>
+  </footer>
+</div>
+</body>
+</html>

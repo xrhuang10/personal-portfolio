@@ -1,5 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="X.">
-  <rect width="64" height="64" fill="#080808"/>
-  <path fill="none" stroke="#e8e8e8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M12 12 L32 38 M32 12 L12 38"/>
-  <rect x="38" y="30" width="14" height="14" rx="1.5" fill="#00ff88"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="XH">
+  <rect width="32" height="32" rx="7" fill="#000"/>
+  <defs>
+    <clipPath id="sq">
+      <rect x="6" y="6" width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#sq)" fill="#fff">
+    <rect x="6" y="6" width="2.8" height="20"/>
+    <rect x="23.2" y="6" width="2.8" height="20"/>
+    <rect x="6" y="14.6" width="20" height="2.8"/>
+  </g>
+  <g clip-path="url(#sq)" fill="none" stroke="#fff" stroke-width="3.96" stroke-linecap="butt">
+    <path d="M4 4 28 28"/>
+    <path d="M28 4 4 28"/>
+  </g>
 </svg>
