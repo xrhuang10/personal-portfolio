@@ -6,11 +6,11 @@
     </clipPath>
   </defs>
   <g clip-path="url(#sq)" fill="#fff">
-    <rect x="6" y="6" width="2.5" height="20"/>
-    <rect x="23.5" y="6" width="2.5" height="20"/>
+    <path d="M6 6H7.273L8.5 7.227V24.773L7.273 26H6Z"/>
+    <path d="M26 6H24.727L23.5 7.227V24.773L24.727 26H26Z"/>
     <rect x="6" y="14.75" width="20" height="2.5"/>
   </g>
-  <g clip-path="url(#sq)" fill="none" stroke="#fff" stroke-width="3.54" stroke-linecap="butt">
+  <g clip-path="url(#sq)" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="butt">
     <path d="M4 4 28 28"/>
     <path d="M28 4 4 28"/>
   </g>

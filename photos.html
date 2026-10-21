@@ -6,13 +6,10 @@
 <title>Photos · Xirui Huang</title>
 <meta name="description" content="Photos from school, work, and time off.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 <script src="theme.js"></script>
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="sheet">
 <div class="wrap">
   <header class="top">
     <a class="brand" href="index.html">Xirui Huang</a>
@@ -31,54 +28,58 @@
   </header>
 
   <main>
-    <h1>Photos</h1>
-    <p class="lede">School, co-op cities, and the things I do when I’m not at a desk.</p>
-    <div class="photos">
-      <figure class="wide">
+    <h1 class="visually-hidden">Photos</h1>
+    <form class="finder" role="search">
+      <svg class="finder-mark" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.1"/><path d="M10.2 10.2 13.1 13.1"/></svg>
+      <input id="photo-query" type="search" placeholder="find a photo" aria-label="Search photos" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+      <p class="finder-status visually-hidden" role="status" aria-live="polite"></p>
+    </form>
+    <div class="photos" id="photo-grid">
+      <figure class="wide" data-id="marathon">
         <img src="assets/gallery-hero.png" alt="Toronto Marathon">
         <figcaption>Toronto Marathon</figcaption>
       </figure>
-      <figure>
+      <figure data-id="neurips">
         <img src="assets/photo-10-neurips.png" alt="Poster at a NeurIPS workshop">
         <figcaption>NeurIPS workshop</figcaption>
       </figure>
-      <figure>
+      <figure data-id="hockey">
         <img src="assets/photo-04-ice.png" alt="Intramural hockey">
         <figcaption>Hockey</figcaption>
       </figure>
-      <figure class="wide">
+      <figure class="wide" data-id="waterloo">
         <img src="assets/photo-02-campus.png" alt="Engineering students at Waterloo, covered in purple powder">
         <figcaption>Waterloo</figcaption>
       </figure>
-      <figure>
+      <figure data-id="nyc">
         <img src="assets/gallery-nyc.png" alt="New York at night">
         <figcaption>New York</figcaption>
       </figure>
-      <figure>
+      <figure data-id="austin">
         <img src="assets/gallery-tesla-austin.png" alt="Cybertruck in Austin">
         <figcaption>Austin</figcaption>
       </figure>
-      <figure>
+      <figure data-id="breadboard">
         <img src="assets/gallery-reading.png" alt="Breadboard wired to an Arduino">
         <figcaption>Breadboard</figcaption>
       </figure>
-      <figure>
+      <figure data-id="hackathon">
         <img src="assets/gallery-hackathon.png" alt="Hackathon build">
         <figcaption>Hackathon</figcaption>
       </figure>
-      <figure class="wide">
+      <figure class="wide" data-id="soccer">
         <img src="assets/gallery-hoops.png" alt="Soccer team with medals">
         <figcaption>Soccer</figcaption>
       </figure>
-      <figure class="wide">
+      <figure class="wide" data-id="summit">
         <img src="assets/photo-05-summit.png" alt="Summit hike">
         <figcaption>A hike that seemed like a good idea</figcaption>
       </figure>
-      <figure>
+      <figure data-id="trail">
         <img src="assets/gallery-trail.png" alt="Trail">
         <figcaption>Trail</figcaption>
       </figure>
-      <figure>
+      <figure data-id="chess">
         <img src="assets/hobby-chess.png" alt="Chess">
         <figcaption>Chess</figcaption>
       </figure>
@@ -96,5 +97,6 @@
     </p>
   </footer>
 </div>
+<script type="module" src="search.js"></script>
 </body>
 </html>

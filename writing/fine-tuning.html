@@ -6,9 +6,6 @@
 <title>Prompting, then fine-tuning · Xirui Huang</title>
 <meta name="description" content="A note on entity extraction and Gemini fine-tuning at Wisedocs.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 <script src="../theme.js"></script>
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -35,7 +32,7 @@
     <article>
       <h1>Prompting, then fine-tuning</h1>
       <p class="dateline">September 2025</p>
-      <p>Wisedocs works on OCR scans of medical and insurance PDFs. The useful output is not a better summary. It is a set of fields you can put in a database.</p>
+      <p><a href="https://www.wisedocs.ai/" target="_blank" rel="noopener noreferrer">Wisedocs</a> works on OCR scans of medical and insurance PDFs. The useful output is not a better summary. It is a set of fields you can put in a database.</p>
       <p>For extraction, prompting was enough. Claude, a strict JSON schema, a held-out set. That path landed at 96%. The schema mattered more than the prose around it. If the model can only return the fields you named, you can test it.</p>
       <p>A second task was a multimodal judgment, and careful prompting plateaued. Fine-tuning Gemini moved inference accuracy to 91%. Before calling that a win I priced it against just sending the same examples to GPT-4 or Claude. A fine-tune that is slightly more accurate and much more expensive is not automatically the right system.</p>
       <p>Around both of those I kept a prompt store. FastAPI, Postgres, versions, deployed to Kubernetes, with Grafana in front and pytest from end to end. The model change was the visible part. Knowing which prompt was actually in production was the part that kept the number honest.</p>

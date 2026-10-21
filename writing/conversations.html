@@ -6,9 +6,6 @@
 <title>Forty thousand conversations · Xirui Huang</title>
 <meta name="description" content="A note on clustering client conversations at Sequence.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 <script src="../theme.js"></script>
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -35,7 +32,7 @@
     <article>
       <h1>Forty thousand conversations</h1>
       <p class="dateline">April 2026</p>
-      <p>At Sequence I was embedded with a portfolio company that lives inside client chat. Reading one thread tells you what happened that day. It does not tell you which kinds of threads keep breaking.</p>
+      <p>At <a href="https://seqholdings.com/" target="_blank" rel="noopener noreferrer">Sequence</a> I was embedded with a portfolio company that lives inside client chat. Reading one thread tells you what happened that day. It does not tell you which kinds of threads keep breaking.</p>
       <p>I embedded the conversations and clustered them with HDBSCAN, on the order of 40,000 threads, running through Trigger.dev and Databricks. The clusters became a map: workflows that repeat, and workflows that fail often enough to deserve a template. Alerts went to Slack. A leaderboard made it obvious which clients were hitting the same wall.</p>
       <p>On top of that I built a template generator. Multimodal input, multi-turn refinement, tools through LangChain. Most of the team ended up using it. The templates product itself became a small marketplace after that: folders, sharing, suggestions, shipped behind a flag so nothing had to go down.</p>
       <p>The quieter half was the user directory. Three sources of truth, sync across environments, four services moved without a downtime window. Clustering is useless if the people who need a cluster cannot find it.</p>

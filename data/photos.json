@@ -1,0 +1,130 @@
+[
+  {
+    "id": "marathon",
+    "phrases": [
+      "Toronto Marathon",
+      "running race",
+      "finisher medal",
+      "CN Tower and the Toronto skyline",
+      "something I like to do",
+      "things I like to do",
+      "a hobby",
+      "for fun"
+    ]
+  },
+  {
+    "id": "neurips",
+    "phrases": [
+      "NeurIPS workshop",
+      "machine learning conference",
+      "research poster"
+    ]
+  },
+  {
+    "id": "hockey",
+    "phrases": [
+      "hockey",
+      "ice rink",
+      "hockey sticks",
+      "something I like to do",
+      "things I like to do",
+      "a hobby",
+      "for fun"
+    ]
+  },
+  {
+    "id": "waterloo",
+    "phrases": [
+      "University of Waterloo",
+      "engineering students on campus",
+      "school",
+      "purple powder"
+    ]
+  },
+  {
+    "id": "nyc",
+    "phrases": [
+      "New York at night",
+      "Manhattan skyline",
+      "Empire State Building"
+    ]
+  },
+  {
+    "id": "austin",
+    "phrases": [
+      "Tesla Cybertruck in Austin",
+      "electric truck at the factory",
+      "stainless steel truck",
+      "car"
+    ]
+  },
+  {
+    "id": "breadboard",
+    "phrases": [
+      "Arduino",
+      "Arduino breadboard",
+      "electronics hardware and a circuit",
+      "hardware",
+      "wires buttons and sensors"
+    ]
+  },
+  {
+    "id": "hackathon",
+    "phrases": [
+      "hackathon",
+      "robot arm",
+      "stepper motor and circuit board",
+      "hardware"
+    ]
+  },
+  {
+    "id": "soccer",
+    "phrases": [
+      "soccer",
+      "football",
+      "trophy",
+      "team medals",
+      "something I like to do",
+      "things I like to do",
+      "a hobby",
+      "for fun"
+    ]
+  },
+  {
+    "id": "summit",
+    "phrases": [
+      "mountain hike",
+      "rocky summit",
+      "mountains",
+      "desert cliffs",
+      "something I like to do",
+      "things I like to do",
+      "a hobby",
+      "for fun"
+    ]
+  },
+  {
+    "id": "trail",
+    "phrases": [
+      "hike",
+      "snowy mountain",
+      "turquoise alpine lake",
+      "winter pines",
+      "something I like to do",
+      "things I like to do",
+      "a hobby",
+      "for fun"
+    ]
+  },
+  {
+    "id": "chess",
+    "phrases": [
+      "chess",
+      "board game",
+      "something I like to do",
+      "things I like to do",
+      "a hobby",
+      "for fun"
+    ]
+  }
+]
